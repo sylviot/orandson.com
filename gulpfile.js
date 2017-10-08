@@ -8,10 +8,9 @@ gulp.task('webpack', require('./src/tasks/webpack'))
 gulp.task('stylelint', require('./src/tasks/stylelint'))
 gulp.task('postcss', require('./src/tasks/postcss'))
 gulp.task('webserver', require('./src/tasks/webserver'))
-gulp.task('copy', require('./src/tasks/copy'))
 gulp.task('metalsmith', require('./src/tasks/metalsmith'))
 gulp.task('htmlmin', require('./src/tasks/html-min'))
-gulp.task('gh-pages', require('./src/tasks/deploy'))
+gulp.task('gh-pages', require('./src/tasks/ghpages'))
 
 const scripts = gulp.parallel('eslint', 'webpack')
 const styles = gulp.parallel('stylelint', 'postcss')
@@ -27,7 +26,6 @@ gulp.task(
   'build',
   gulp.series(
     'clean',
-    'copy',
     'metalsmith',
     gulp.parallel('stylelint', 'postcss', 'eslint', 'webpack'),
     'htmlmin'
@@ -38,7 +36,6 @@ gulp.task(
   'deploy',
   gulp.series(
     'clean',
-    'copy',
     'metalsmith',
     gulp.parallel('stylelint', 'postcss', 'eslint', 'webpack'),
     'htmlmin',
