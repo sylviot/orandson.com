@@ -1,0 +1,11 @@
+node_modules
+*.log
+*.swp
+package-lock.json
+node_modules/
+public/
+coverage/
+**/.DS_Store
+.publish/
+dist/js/*.map
+dist/

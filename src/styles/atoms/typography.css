@@ -1,0 +1,19 @@
+@import "typography/alignment.css";
+@import "typography/heading.css";
+@import "typography/link.css";
+@import "typography/paragraph.css";
+@import "typography/style.css";
+@import "typography/transform.css";
+
+html {
+  font-size: $default-font-size;
+  font-weight: $default-font-weight;
+  line-height: $default-line-height;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  color: $black;
+  font-family: $default-font-family;
+}

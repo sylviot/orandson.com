@@ -1,0 +1,26 @@
+{
+  "black": "#1F2D3D",
+  "steel": "#273444",
+  "slate": "#3C4858",
+  "silver": "#8492A6",
+
+  "blue": "#42B8FD",
+  "positive": "#5BD643",
+  "warning": "#E2C800",
+  "negative": "#FF654F",
+
+  "snow": "#F9FAFC",
+  "dark-snow": "#EFF2F7",
+  "extra-dark-snow": "#E5E9F2",
+
+  "smoke": "#E0E6ED",
+  "dark-smoke": "#D3DCE6",
+  "extra-dark-smoke": "#C0CCDA",
+
+  "default-font-family": "'Helvetica Neue', Monaco, monospace",
+  "default-font-size": "16px",
+  "default-line-height": "1.6",
+  "default-font-weight": 300,
+
+  "default-color-text": "#50505A"
+}

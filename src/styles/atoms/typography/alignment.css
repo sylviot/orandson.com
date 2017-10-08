@@ -1,0 +1,6 @@
+@each $alignment in center, left, justify, nowrap, right {
+  .align-$(alignment) {
+    text-align: $(alignment);
+  }
+}
+

@@ -1,0 +1,16 @@
+strong,
+b,
+.strong {
+  font-weight: bold;
+}
+
+em,
+i,
+.italic {
+  font-style: italic;
+}
+
+u,
+.underline {
+  text-decoration: underline;
+}
