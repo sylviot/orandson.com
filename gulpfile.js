@@ -38,8 +38,7 @@ gulp.task(
     'clean',
     'metalsmith',
     gulp.parallel('stylelint', 'postcss', 'eslint', 'webpack'),
-    'htmlmin',
-    'gh-pages'
+    'htmlmin'
   )
 )
 
