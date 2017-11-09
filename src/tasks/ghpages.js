@@ -5,7 +5,7 @@ const fs = require('fs')
 const paths = require('./paths')
 
 module.exports = () => {
-  fs.writeFileSync('dist/CNAME', 'rands0n.com')
+  fs.writeFileSync('dist/CNAME', 'orandson.com')
 
   return gulp.src(`${paths.dest}/**/*`)
     .pipe(pages())
